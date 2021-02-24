@@ -12,9 +12,10 @@ main {
   flex-grow: 5;
   align-items: center;
   box-shadow: 5px 10px;
-  border-radius: 8px;
-  max-width: 480px;
+  border-radius: 38px;
+  max-width: 500px;
   text-align: center;
+  overflow: hidden;
 }
 .spacer {
     flex-grow: 6;
@@ -39,4 +40,10 @@ main {
   font-family: 'Oi', cursive;
   font-size: 32px;
   text-align: center;
+}
+.footer {
+    background-color:  rgb(101, 132, 231);
+    width: 500px;
+    height: 50px;
+    content: '';
 }
