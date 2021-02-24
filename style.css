@@ -14,17 +14,24 @@ main {
   box-shadow: 5px 10px;
   border-radius: 8px;
   max-width: 480px;
+  text-align: center;
 }
 .spacer {
-  flex-grow: 6;
+    flex-grow: 6;
 }
 .myName {
-  background: rgb(101, 132, 231);
-  font-size: 42px;
-  padding: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  color: white;
+    background: rgb(101, 132, 231);
+    font-size: 32px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.myName::before {    
+    letter-spacing: 10px;
+    font-size: 72px;
+    font-weight: 950;
+    content: 'HELLO';
 }
 .myExcuse {
   background: white;
