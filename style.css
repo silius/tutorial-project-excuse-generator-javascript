@@ -13,6 +13,7 @@ main {
   align-items: center;
   box-shadow: 5px 10px;
   border-radius: 8px;
+  max-width: 480px;
 }
 .spacer {
   flex-grow: 6;
